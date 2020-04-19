@@ -62,7 +62,7 @@
 <meta property="og:description" content="Hugo theme jane example site." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://lunzhoufei.com/" />
-<meta property="og:updated_time" content="2017-08-20T21:38:52+08:00" />
+<meta property="og:updated_time" content="2019-07-13T11:43:05+08:00" />
 <meta itemprop="name" content="lunzhoufei&#39;s world">
 <meta itemprop="description" content="Hugo theme jane example site."><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="lunzhoufei&#39;s world"/>
@@ -126,7 +126,7 @@
         
           
           
-            <a class="menu-item-link" href="http://lunzhoufei.com/about/">关于我</a>
+            <a class="menu-item-link" href="http://lunzhoufei.com/">项目</a>
           
         
       </li><li class="mobile-menu-item">
@@ -135,10 +135,14 @@
           <div class="mobile-menu-parent">
             <span class="mobile-submenu-open"></span>
             <a href="http://lunzhoufei.com/">
-              docs
+              关于
             </a>
           </div>
           <ul class="mobile-submenu-list">
+            
+              <li>
+                <a href="http://lunzhoufei.com/about/">关于我</a>
+              </li>
             
               <li>
                 <a href="http://lunzhoufei.com/post/shortcodes-preview/">Shortcodes Preview</a>
@@ -291,7 +295,7 @@
         
           
           
-            <a class="menu-item-link" href="http://lunzhoufei.com/about/">关于我</a>
+            <a class="menu-item-link" href="http://lunzhoufei.com/">项目</a>
           
 
         
@@ -301,8 +305,12 @@
         <li class="menu-item">
         
           
-          <a class="menu-item-link menu-parent" href="http://lunzhoufei.com/">docs</a>
+          <a class="menu-item-link menu-parent" href="http://lunzhoufei.com/">关于</a>
           <ul class="submenu">
+            
+              <li>
+                <a href="http://lunzhoufei.com/about/">关于我</a>
+              </li>
             
               <li>
                 <a href="http://lunzhoufei.com/post/shortcodes-preview/">Shortcodes Preview</a>
@@ -347,42 +355,6 @@
     
   
   
-  
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/english-preview/">English Creating a New Theme</a>
-    </h1>
-    
-    <div class="post-meta">
-      <time datetime="2017-08-31" class="post-time">
-        31087-08-31
-      </time>
-      <div class="post-category">
-          <a href="http://lunzhoufei.com/categories/english/"> English </a>
-          <a href="http://lunzhoufei.com/categories/index/"> index </a>
-          
-        </div>
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      <h2 id="introduction">Introduction</h2>
-<p>This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.</p>
-    </div>
-    <div class="read-more">
-      <a href="/post/english-preview/" class="read-more-link">阅读全文</a>
-    </div>
-    
-  </div>
-</article>
-
   
     <article class="post bg-white">
   <header class="post-header">
@@ -457,6 +429,84 @@ We&rsquo;ll start with creating a new site with a very basic template.
 </article>
 
   
+    <article class="post bg-white">
+  <header class="post-header">
+    <h1 class="post-title">
+      
+      <a class="post-link" href="/post/goisforlovers/">(Hu)go Template Primer</a>
+    </h1>
+    
+    <div class="post-meta">
+      <time datetime="2014-04-02" class="post-time">
+        2047-04-02
+      </time>
+      <div class="post-category">
+          <a href="http://lunzhoufei.com/categories/development/"> Development </a>
+          <a href="http://lunzhoufei.com/categories/golang/"> golang </a>
+          <a href="http://lunzhoufei.com/categories/index/"> index </a>
+          
+        </div>
+      
+      
+      
+    </div>
+  </header>
+  
+  <div class="post-content">
+    
+    <div class="post-summary">
+      Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
+This document is a brief primer on using go templates.
+    </div>
+    <div class="read-more">
+      <a href="/post/goisforlovers/" class="read-more-link">阅读全文</a>
+    </div>
+    
+  </div>
+</article>
+
+  
+    <article class="post bg-white">
+  <header class="post-header">
+    <h1 class="post-title">
+      
+      <a class="post-link" href="/post/hugoisforlovers/">Getting Started with Hugo</a>
+    </h1>
+    
+    <div class="post-meta">
+      <time datetime="2014-04-02" class="post-time">
+        2047-04-02
+      </time>
+      <div class="post-category">
+          <a href="http://lunzhoufei.com/categories/development/"> Development </a>
+          <a href="http://lunzhoufei.com/categories/golang/"> golang </a>
+          <a href="http://lunzhoufei.com/categories/index/"> index </a>
+          
+        </div>
+      
+      
+      
+    </div>
+  </header>
+  
+  <div class="post-content">
+    
+    <div class="post-summary">
+      Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
+Save it somewhere specific as we will be using it in the next step.
+More complete instructions are available at installing hugo
+Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
+Follow the following steps:
+ Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:
+    </div>
+    <div class="read-more">
+      <a href="/post/hugoisforlovers/" class="read-more-link">阅读全文</a>
+    </div>
+    
+  </div>
+</article>
+
+  
 </section>
 
 
@@ -498,10 +548,6 @@ We&rsquo;ll start with creating a new site with a very basic template.
         <a href="/page/4/">4</a>
       </li>
       
-      <li >
-        <a href="/page/5/">5</a>
-      </li>
-      
     </ul>
   </nav>
 
@@ -541,7 +587,7 @@ We&rsquo;ll start with creating a new site with a very basic template.
 
     </a>
   
-    <a href="http://localhost:1313" rel="me noopener" class="iconfont"
+    <a href="http://github.com/lunzhoufei" rel="me noopener" class="iconfont"
       title="github"  target="_blank"
       >
       <svg class="icon" style="" viewBox="0 0 1024 1024" version="1.1"
@@ -576,17 +622,6 @@ We&rsquo;ll start with creating a new site with a very basic template.
     </a>
   
     <a href="http://localhost:1313" rel="me noopener" class="iconfont"
-      title="douban"  target="_blank"
-      >
-      <svg class="icon" style="" viewBox="0 0 1024 1024" version="1.1"
-  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-  width="36" height="36">
-  <path d="M926.917973 37.80608C959.65184 37.80608 986.19392 64.34816 986.19392 97.082027L986.19392 926.917973C986.19392 959.65184 959.65184 986.19392 926.917973 986.19392L97.082027 986.19392C64.34816 986.19392 37.80608 959.65184 37.80608 926.917973L37.80608 97.082027C37.80608 64.34816 64.34816 37.80608 97.082027 37.80608zM176.653653 176.19968 176.653653 252.678827 825.658027 252.678827 825.658027 176.19968zM217.719467 316.146347 217.719467 628.08064 273.524053 628.08064 341.292373 770.39616 157.259093 770.39616 157.259093 845.417813 842.949973 845.417813 842.949973 770.39616 654.226773 770.39616 722.899627 628.08064 783.67744 628.08064 783.67744 316.146347zM684.885333 392.891733 684.885333 553.987413 312.576 553.987413 312.576 392.891733zM570.770773 770.39616 426.653013 770.39616 359.621973 628.08064 639.443627 628.08064z"></path>
-</svg>
-
-    </a>
-  
-    <a href="http://localhost:1313" rel="me noopener" class="iconfont"
       title="pocket"  target="_blank"
       >
       <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
@@ -597,7 +632,7 @@ We&rsquo;ll start with creating a new site with a very basic template.
 
     </a>
   
-    <a href="http://localhost:1313" rel="me noopener" class="iconfont"
+    <a href="https://www.instagram.com/lunzhou/" rel="me noopener" class="iconfont"
       title="instagram"  target="_blank"
       >
       <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
@@ -697,7 +732,7 @@ We&rsquo;ll start with creating a new site with a very basic template.
 
       </i>
     </span><span class="author">
-        lunzhou
+        lunzhoufei
         
       </span></span>
 

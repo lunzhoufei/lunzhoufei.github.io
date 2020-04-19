@@ -23,7 +23,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="lunzhou" />
-  <meta name="description" content="normal use Note example: {{% notice note %}} A notice disclaimer {{% /notice %}} Result: note A notice disclaimer You could custom title : {{% notice note 笔记 %}} A notice disclaimer {{% /notice %}} 笔记 A notice disclaimer tip {{% notice tip %}} A tip disclaimer {{% /tip %}} tip A tip disclaimer info {{% notice info %}} A info disclaimer {{% /notice %}} info An information" />
+  <meta name="description" content="normal use Note example: 1 2 3 {{% notice note %}} A notice disclaimer {{% /notice %}} Result: note A notice disclaimer You could custom title : 1 2 3 {{% notice note 笔记 %}} A notice disclaimer {{% /notice %}} 笔记 A notice disclaimer tip 1 2 3 {{% notice tip %}} A tip disclaimer {{% /tip %}} tip A tip disclaimer info 1 2 3 {{%" />
 
   <meta name="keywords" content="lunzhou, lunzhoufei, tencent" />
 
@@ -60,22 +60,22 @@
 
 
 <meta property="og:title" content="Shortcodes Notice Preview" />
-<meta property="og:description" content="normal use Note example: {{% notice note %}} A notice disclaimer {{% /notice %}} Result: note A notice disclaimer You could custom title : {{% notice note 笔记 %}} A notice disclaimer {{% /notice %}} 笔记 A notice disclaimer tip {{% notice tip %}} A tip disclaimer {{% /tip %}} tip A tip disclaimer info {{% notice info %}} A info disclaimer {{% /notice %}} info An information" />
+<meta property="og:description" content="normal use Note example: 1 2 3 {{% notice note %}} A notice disclaimer {{% /notice %}} Result: note A notice disclaimer You could custom title : 1 2 3 {{% notice note 笔记 %}} A notice disclaimer {{% /notice %}} 笔记 A notice disclaimer tip 1 2 3 {{% notice tip %}} A tip disclaimer {{% /tip %}} tip A tip disclaimer info 1 2 3 {{%" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://lunzhoufei.com/post/shortcode-notice/" />
 <meta property="article:published_time" content="2018-03-03T16:01:23+08:00" />
 <meta property="article:modified_time" content="2018-03-04T16:01:23+08:00" />
 <meta itemprop="name" content="Shortcodes Notice Preview">
-<meta itemprop="description" content="normal use Note example: {{% notice note %}} A notice disclaimer {{% /notice %}} Result: note A notice disclaimer You could custom title : {{% notice note 笔记 %}} A notice disclaimer {{% /notice %}} 笔记 A notice disclaimer tip {{% notice tip %}} A tip disclaimer {{% /tip %}} tip A tip disclaimer info {{% notice info %}} A info disclaimer {{% /notice %}} info An information">
+<meta itemprop="description" content="normal use Note example: 1 2 3 {{% notice note %}} A notice disclaimer {{% /notice %}} Result: note A notice disclaimer You could custom title : 1 2 3 {{% notice note 笔记 %}} A notice disclaimer {{% /notice %}} 笔记 A notice disclaimer tip 1 2 3 {{% notice tip %}} A tip disclaimer {{% /tip %}} tip A tip disclaimer info 1 2 3 {{%">
 <meta itemprop="datePublished" content="2018-03-03T16:01:23&#43;08:00" />
 <meta itemprop="dateModified" content="2018-03-04T16:01:23&#43;08:00" />
-<meta itemprop="wordCount" content="86">
+<meta itemprop="wordCount" content="101">
 
 
 
 <meta itemprop="keywords" content="preview,shortcodes,tag-6," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Shortcodes Notice Preview"/>
-<meta name="twitter:description" content="normal use Note example: {{% notice note %}} A notice disclaimer {{% /notice %}} Result: note A notice disclaimer You could custom title : {{% notice note 笔记 %}} A notice disclaimer {{% /notice %}} 笔记 A notice disclaimer tip {{% notice tip %}} A tip disclaimer {{% /tip %}} tip A tip disclaimer info {{% notice info %}} A info disclaimer {{% /notice %}} info An information"/>
+<meta name="twitter:description" content="normal use Note example: 1 2 3 {{% notice note %}} A notice disclaimer {{% /notice %}} Result: note A notice disclaimer You could custom title : 1 2 3 {{% notice note 笔记 %}} A notice disclaimer {{% /notice %}} 笔记 A notice disclaimer tip 1 2 3 {{% notice tip %}} A tip disclaimer {{% /tip %}} tip A tip disclaimer info 1 2 3 {{%"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -135,7 +135,7 @@
         
           
           
-            <a class="menu-item-link" href="http://lunzhoufei.com/about/">关于我</a>
+            <a class="menu-item-link" href="http://lunzhoufei.com/">项目</a>
           
         
       </li><li class="mobile-menu-item">
@@ -144,10 +144,14 @@
           <div class="mobile-menu-parent">
             <span class="mobile-submenu-open"></span>
             <a href="http://lunzhoufei.com/">
-              docs
+              关于
             </a>
           </div>
           <ul class="mobile-submenu-list">
+            
+              <li>
+                <a href="http://lunzhoufei.com/about/">关于我</a>
+              </li>
             
               <li>
                 <a href="http://lunzhoufei.com/post/shortcodes-preview/">Shortcodes Preview</a>
@@ -300,7 +304,7 @@
         
           
           
-            <a class="menu-item-link" href="http://lunzhoufei.com/about/">关于我</a>
+            <a class="menu-item-link" href="http://lunzhoufei.com/">项目</a>
           
 
         
@@ -310,8 +314,12 @@
         <li class="menu-item">
         
           
-          <a class="menu-item-link menu-parent" href="http://lunzhoufei.com/">docs</a>
+          <a class="menu-item-link menu-parent" href="http://lunzhoufei.com/">关于</a>
           <ul class="submenu">
+            
+              <li>
+                <a href="http://lunzhoufei.com/about/">关于我</a>
+              </li>
             
               <li>
                 <a href="http://lunzhoufei.com/post/shortcodes-preview/">Shortcodes Preview</a>
@@ -394,10 +402,19 @@
     <div class="post-content">
       <h2 id="normal-use">normal use</h2>
 <p><code>Note</code> example:</p>
-<pre><code class="language-shortcode" data-lang="shortcode">{{% notice note %}}
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">{{% notice note %}}
 A notice disclaimer
 {{% /notice %}}
-</code></pre><p><strong>Result:</strong></p>
+</code></pre></td></tr></table>
+</div>
+</div><p><strong>Result:</strong></p>
 <!-- raw HTML omitted -->
 <pre><code>  note
 </code></pre>
@@ -405,40 +422,76 @@ A notice disclaimer
 <p>A notice disclaimer</p>
 <!-- raw HTML omitted -->
 <p>You could <strong>custom title</strong> :</p>
-<pre><code class="language-shortcode" data-lang="shortcode">{{% notice note 笔记 %}}
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">{{% notice note 笔记 %}}
 A notice disclaimer
 {{% /notice %}}
-</code></pre><!-- raw HTML omitted -->
+</code></pre></td></tr></table>
+</div>
+</div><!-- raw HTML omitted -->
 <pre><code>  笔记
 </code></pre>
 <!-- raw HTML omitted -->
 <p>A notice disclaimer</p>
 <!-- raw HTML omitted -->
 <h2 id="tip">tip</h2>
-<pre><code class="language-shortcode" data-lang="shortcode">{{% notice tip %}}
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">{{% notice tip %}}
 A tip disclaimer
 {{% /tip %}}
-</code></pre><!-- raw HTML omitted -->
+</code></pre></td></tr></table>
+</div>
+</div><!-- raw HTML omitted -->
 <pre><code>  tip
 </code></pre>
 <!-- raw HTML omitted -->
 <p>A tip disclaimer</p>
 <!-- raw HTML omitted -->
 <h2 id="info">info</h2>
-<pre><code class="language-shortcode" data-lang="shortcode">{{% notice info %}}
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">{{% notice info %}}
 A info disclaimer
 {{% /notice %}}
-</code></pre><!-- raw HTML omitted -->
+</code></pre></td></tr></table>
+</div>
+</div><!-- raw HTML omitted -->
 <pre><code>  info
 </code></pre>
 <!-- raw HTML omitted -->
 <p>An information disclaimer</p>
 <!-- raw HTML omitted -->
 <h2 id="warning">warning</h2>
-<pre><code class="language-shortcode" data-lang="shortcode">{{% notice warning %}}
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">{{% notice warning %}}
 A warning disclaimer
 {{% /notice %}}
-</code></pre><!-- raw HTML omitted -->
+</code></pre></td></tr></table>
+</div>
+</div><!-- raw HTML omitted -->
 <pre><code>  warning
 </code></pre>
 <!-- raw HTML omitted -->
@@ -529,7 +582,33 @@ A warning disclaimer
 
   
 
+  <div class="disqus-comment">
+  <div class="disqus-button" id="load_disqus" onclick="load_disqus()">
+    显示 Disqus 评论
+  </div>
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_config = function () {
+      this.page.url = "http://lunzhoufei.com/post/shortcode-notice/";
+    };
+    function load_disqus() {
+      
+      
+      if (window.location.hostname === 'localhost') return;
+
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      var disqus_shortname = 'lunzhoufei';
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+
+      $('#load_disqus').remove();
+    };
+  </script>
+  <noscript>Please enable JavaScript to view the
+    <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+  </noscript>
   
+  </div>
 
     
 
@@ -564,7 +643,7 @@ A warning disclaimer
 
     </a>
   
-    <a href="http://localhost:1313" rel="me noopener" class="iconfont"
+    <a href="http://github.com/lunzhoufei" rel="me noopener" class="iconfont"
       title="github"  target="_blank"
       >
       <svg class="icon" style="" viewBox="0 0 1024 1024" version="1.1"
@@ -599,17 +678,6 @@ A warning disclaimer
     </a>
   
     <a href="http://localhost:1313" rel="me noopener" class="iconfont"
-      title="douban"  target="_blank"
-      >
-      <svg class="icon" style="" viewBox="0 0 1024 1024" version="1.1"
-  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-  width="36" height="36">
-  <path d="M926.917973 37.80608C959.65184 37.80608 986.19392 64.34816 986.19392 97.082027L986.19392 926.917973C986.19392 959.65184 959.65184 986.19392 926.917973 986.19392L97.082027 986.19392C64.34816 986.19392 37.80608 959.65184 37.80608 926.917973L37.80608 97.082027C37.80608 64.34816 64.34816 37.80608 97.082027 37.80608zM176.653653 176.19968 176.653653 252.678827 825.658027 252.678827 825.658027 176.19968zM217.719467 316.146347 217.719467 628.08064 273.524053 628.08064 341.292373 770.39616 157.259093 770.39616 157.259093 845.417813 842.949973 845.417813 842.949973 770.39616 654.226773 770.39616 722.899627 628.08064 783.67744 628.08064 783.67744 316.146347zM684.885333 392.891733 684.885333 553.987413 312.576 553.987413 312.576 392.891733zM570.770773 770.39616 426.653013 770.39616 359.621973 628.08064 639.443627 628.08064z"></path>
-</svg>
-
-    </a>
-  
-    <a href="http://localhost:1313" rel="me noopener" class="iconfont"
       title="pocket"  target="_blank"
       >
       <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
@@ -620,7 +688,7 @@ A warning disclaimer
 
     </a>
   
-    <a href="http://localhost:1313" rel="me noopener" class="iconfont"
+    <a href="https://www.instagram.com/lunzhou/" rel="me noopener" class="iconfont"
       title="instagram"  target="_blank"
       >
       <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
@@ -720,7 +788,7 @@ A warning disclaimer
 
       </i>
     </span><span class="author">
-        lunzhou
+        lunzhoufei
         
       </span></span>
 
