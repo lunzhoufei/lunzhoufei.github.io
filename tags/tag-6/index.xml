@@ -14,28 +14,28 @@
     
     <item>
       <title>Jane 主题预览</title>
-      <link>http://lunzhoufei.com/post/jane-theme-preview/</link>
+      <link>http://lunzhoufei.com/example/jane-theme-preview/</link>
       <pubDate>Tue, 06 Mar 2018 16:01:23 +0800</pubDate>
       
-      <guid>http://lunzhoufei.com/post/jane-theme-preview/</guid>
+      <guid>http://lunzhoufei.com/example/jane-theme-preview/</guid>
       <description>主题预览,内容有待填充。</description>
     </item>
     
     <item>
       <title>Math Preview</title>
-      <link>http://lunzhoufei.com/post/math-preview/</link>
+      <link>http://lunzhoufei.com/example/math-preview/</link>
       <pubDate>Mon, 04 Mar 2019 16:01:23 +0800</pubDate>
       
-      <guid>http://lunzhoufei.com/post/math-preview/</guid>
+      <guid>http://lunzhoufei.com/example/math-preview/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.intmath.com/cg5/katex-mathjax-comparison.php&#34;&gt;KaTeX and MathJax Comparison Demo, currently processed as KaTex&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Shortcodes Preview</title>
-      <link>http://lunzhoufei.com/post/shortcodes-preview/</link>
+      <link>http://lunzhoufei.com/example/shortcodes-preview/</link>
       <pubDate>Sun, 04 Mar 2018 16:01:23 +0800</pubDate>
       
-      <guid>http://lunzhoufei.com/post/shortcodes-preview/</guid>
+      <guid>http://lunzhoufei.com/example/shortcodes-preview/</guid>
       <description>&lt;h2 id=&#34;what-a-shortcode-is&#34;&gt;What a Shortcode is&lt;/h2&gt;
 &lt;p&gt;Hugo loves Markdown because of its simple content format, but there are times when Markdown falls short. Often, content authors are forced to add raw HTML (e.g., video &lt;code&gt;&amp;lt;iframes&amp;gt;&lt;/code&gt;) to Markdown content. We think this contradicts the beautiful simplicity of Markdown&amp;rsquo;s syntax.&lt;/p&gt;
 &lt;p&gt;Hugo created &lt;strong&gt;shortcodes&lt;/strong&gt; to circumvent these limitations.&lt;/p&gt;
@@ -46,10 +46,10 @@
     
     <item>
       <title>Shortcodes Notice Preview</title>
-      <link>http://lunzhoufei.com/post/shortcode-notice/</link>
+      <link>http://lunzhoufei.com/example/shortcode-notice/</link>
       <pubDate>Sat, 03 Mar 2018 16:01:23 +0800</pubDate>
       
-      <guid>http://lunzhoufei.com/post/shortcode-notice/</guid>
+      <guid>http://lunzhoufei.com/example/shortcode-notice/</guid>
       <description>normal use Note example: 1 2 3 {{% notice note %}} A notice disclaimer {{% /notice %}} Result: note A notice disclaimer You could custom title : 1 2 3 {{% notice note 笔记 %}} A notice disclaimer {{% /notice %}} 笔记 A notice disclaimer tip 1 2 3 {{% notice tip %}} A tip disclaimer {{% /tip %}} tip A tip disclaimer info 1 2 3 {{%</description>
     </item>
     
