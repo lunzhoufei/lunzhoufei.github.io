@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>lunzhoufei</copyright>
-    <lastBuildDate>Sun, 19 Apr 2020 16:43:39 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2020 01:31:29 +0800</lastBuildDate>
     
 	<atom:link href="http://lunzhoufei.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Thought About Uber Go Style</title>
+      <link>http://lunzhoufei.com/post/thought-about-uber-go-style/</link>
+      <pubDate>Wed, 22 Apr 2020 01:31:29 +0800</pubDate>
+      
+      <guid>http://lunzhoufei.com/post/thought-about-uber-go-style/</guid>
+      <description>阅读uber内部关于实践多年的golang编码规范，看到关于Function options的一条： 关于 functional options 简单来说就是通过类似闭包的方式来进</description>
+    </item>
     
     <item>
       <title>Backend Cache</title>
